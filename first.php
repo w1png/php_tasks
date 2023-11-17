@@ -4,7 +4,7 @@
         <title>PHP Test</title>
     </head>
     <body>
-<?php 
+      <?php 
         echo "<strong>Задачи</strong><br><br>#1<br>";
         $var = "hello";
         echo $var[0];
@@ -28,7 +28,7 @@
         $var -= 1;
         echo $var;
 
-        echo "<br><br>Работа с переменными<br><br>";
+        echo "<br><br><br><strong>Работа с переменными</strong><br><br>";
 
         echo "#1<br>";
         $a = 3;
@@ -56,6 +56,8 @@
         $b = 2;
         $c = 5;
         echo $a + $b + $c;
+
+        echo "<br><br>";
 
         echo "#5<br>";
         $a = 17;
